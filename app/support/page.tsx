@@ -59,6 +59,26 @@ export default async function SupportPage() {
           ))}
         </div>
 
+        <Card>
+            <CardHeader>
+              <CardTitle>Visit Us At </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="relative h-[400px] rounded-lg overflow-hidden">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.9400790942364!2d80.33704547476027!3d7.2476603927588075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae311d166ac198b%3A0x1af21369313534f0!2sDilmani%20Apparel%20Embroidery%20Designs!5e0!3m2!1sen!2slk!4v1749196491187!5m2!1sen!2slk"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    className="absolute inset-0"
+                  ></iframe>
+                </div>
+            </CardContent>
+          </Card>
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Form */}
           <div>
