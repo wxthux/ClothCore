@@ -70,7 +70,7 @@ export default async function Home() {
             </div>
             <div className="relative">
               <Image
-                src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                src="/hero.jpg"
                 alt="Custom T-Shirts"
                 width={600}
                 height={400}
@@ -146,13 +146,8 @@ export default async function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="overflow-hidden">
-              <div className="relative h-48">
-                <Image
-                  src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
-                  alt="Custom T-Shirts"
-                  fill
-                  className="object-cover"
-                />
+              <div className="relative h-80">
+                <Image src="/products/2.jpg" alt="Custom T-Shirts" fill className="object-cover" />
               </div>
               <CardHeader>
                 <CardTitle>Custom T-Shirts</CardTitle>
@@ -164,13 +159,8 @@ export default async function Home() {
             </Card>
 
             <Card className="overflow-hidden">
-              <div className="relative h-48">
-                <Image
-                  src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
-                  alt="Custom Hoodies"
-                  fill
-                  className="object-cover"
-                />
+              <div className="relative h-80">
+                <Image src="/products/3.jpg" alt="Custom Hoodies" fill className="object-cover" />
               </div>
               <CardHeader>
                 <CardTitle>Custom Hoodies</CardTitle>
@@ -182,13 +172,8 @@ export default async function Home() {
             </Card>
 
             <Card className="overflow-hidden">
-              <div className="relative h-48">
-                <Image
-                  src="https://images.unsplash.com/photo-1588850561407-ed78c282e89b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
-                  alt="Custom Caps"
-                  fill
-                  className="object-cover"
-                />
+              <div className="relative h-80">
+                <Image src="/products/4.jpg" alt="Custom Caps" fill className="object-cover" />
               </div>
               <CardHeader>
                 <CardTitle>Custom Caps</CardTitle>

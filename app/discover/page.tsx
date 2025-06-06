@@ -34,24 +34,22 @@ export default function DiscoverPage() {
     {
       name: "Direct-to-Garment (DTG)",
       description: "High-resolution printing with vibrant colors that last",
-      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+      image: "/products/graphic-print-tee.jpg",
     },
     {
       name: "Screen Printing",
       description: "Durable prints perfect for bulk orders and simple designs",
-      image:
-        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+      image: "/products/custom-logo-tee.jpg",
     },
     {
       name: "Heat Transfer",
       description: "Precise application for specialty materials and finishes",
-      image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+      image: "/products/performance-tee.jpg",
     },
     {
       name: "Embroidery",
       description: "Premium embroidered designs for a professional look",
-      image:
-        "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+      image: "/products/polo-shirt.jpg",
     },
   ]
 
@@ -60,29 +58,25 @@ export default function DiscoverPage() {
       name: "Alex Rodriguez",
       role: "Former MLB Star",
       quote: "ClothCore delivers quality that matches my standards.",
-      image:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+      image: "/products/performance-tee.jpg",
     },
     {
       name: "Sarah Chen",
       role: "Fashion Influencer",
       quote: "The attention to detail is incredible. My go-to for custom apparel.",
-      image:
-        "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+      image: "/products/oversized-hoodie.jpg",
     },
     {
       name: "Marcus Johnson",
       role: "Fitness Coach",
       quote: "Comfortable, durable, and stylish. Perfect for my brand.",
-      image:
-        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+      image: "/products/tank-top.jpg",
     },
     {
       name: "Emma Thompson",
       role: "Startup Founder",
       quote: "ClothCore helped bring our company merchandise to life.",
-      image:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+      image: "/products/polo-shirt.jpg",
     },
   ]
 
@@ -101,7 +95,7 @@ export default function DiscoverPage() {
                 Crafting Quality
                 <span className="text-orange-500"> Apparel</span>
                 <br />
-                Since 2014
+                Since 2015
               </h1>
               <p className="text-xl text-muted-foreground max-w-[600px]">
                 From a small garage operation to an industry leader, we've been revolutionizing custom apparel printing
@@ -120,7 +114,7 @@ export default function DiscoverPage() {
             </div>
             <div className="relative">
               <Image
-                src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                src="/products/urban-hoodie.jpg"
                 alt="ClothCore Factory"
                 width={600}
                 height={400}
@@ -170,28 +164,28 @@ export default function DiscoverPage() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <Image
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+                src="/products/tech-sweatshirt.jpg"
                 alt="Factory Floor"
                 width={300}
                 height={200}
                 className="rounded-lg"
               />
               <Image
-                src="https://images.unsplash.com/photo-1565814329452-e1efa11c5b89?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+                src="/products/premium-zip-hoodie.jpg"
                 alt="Quality Control"
                 width={300}
                 height={200}
                 className="rounded-lg"
               />
               <Image
-                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+                src="/products/graphic-print-tee.jpg"
                 alt="Printing Process"
                 width={300}
                 height={200}
                 className="rounded-lg"
               />
               <Image
-                src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+                src="/products/custom-logo-tee.jpg"
                 alt="Team at Work"
                 width={300}
                 height={200}
