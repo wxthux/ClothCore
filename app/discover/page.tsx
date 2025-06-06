@@ -101,7 +101,7 @@ export default function DiscoverPage() {
                 Crafting Quality
                 <span className="text-orange-500"> Apparel</span>
                 <br />
-                Since 2015
+                Since 2014
               </h1>
               <p className="text-xl text-muted-foreground max-w-[600px]">
                 From a small garage operation to an industry leader, we've been revolutionizing custom apparel printing
