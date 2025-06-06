@@ -34,7 +34,7 @@ export default function CartPage() {
     message += "Thank you for choosing ClothCore! 🙏"
 
     const encodedMessage = encodeURIComponent(message)
-    const whatsappUrl = `https://wa.me/94763813687?text=${encodedMessage}`
+    const whatsappUrl = `https://wa.me/94786139716?text=${encodedMessage}`
 
     window.open(whatsappUrl, "_blank")
     setIsCheckingOut(false)

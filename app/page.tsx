@@ -49,7 +49,7 @@ export default async function Home() {
                 Premium Custom Apparel
               </Badge>
               <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-                Welcome to <span className="text-orange-500">ClothCore</span>
+                Welcome to <span className="text-orange-500">PinkPearls</span>
               </h1>
               <p className="text-xl text-muted-foreground max-w-[600px]">
                 Transform your ideas into premium custom apparel. From t-shirts to hoodies, we deliver exceptional
